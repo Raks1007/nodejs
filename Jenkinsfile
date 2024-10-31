@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = 'raksha0/node-js'
+        DOCKER_HUB_REPO = 'raksha10/node-js'
         DOCKER_HUB_CREDS = credentials('2f46fe2b-1fe8-47eb-9500-cf0383a3c54f')
         BLUE_CONTAINER = 'blue'
         GREEN_CONTAINER = 'green'
