@@ -4,7 +4,7 @@ const port = 3000;
 
 // Basic route for health check
 app.get('/', (req, res) => {
-    res.send('Hello, this is a blue-green deployment setup!');
+    res.send('This is a blue-green deployment setup!');
 });
 
 // Start the server
